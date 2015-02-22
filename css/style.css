@@ -1,0 +1,95 @@
+body {
+    background-color: #222;
+    font-family: sans-serif;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    font-size: 3em;
+    text-align: center;
+    color: #EEE;
+}
+
+h2 {
+    font-size: 1.5em;
+    text-align: center;
+    color: #EEE;
+    font-style: italic;
+    margin-top: -20px;
+    margin-bottom: 40px;
+}
+
+.hyperlink_group {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 15px;
+    display:block;
+    height: auto;
+    width: 80%;
+    border: none;
+    font-size: 2.5em;
+    text-align: center;
+    padding: 15px;
+    color: #222;
+    border-radius: 20px;
+    -o-transition: background-color 0.3s, color 0.3s, width 0.2s;
+    -ms-transition: background-color 0.3s, color 0.3s, width 0.2s;
+    -moz-transition: background-color 0.3s, color 0.3s, width 0.2s;
+    -webkit-transition: background-color 0.3s, color 0.3s, width 0.2s;
+    word-wrap: break-word;
+}
+
+/* on hover, increase the width of hyperlink groups */
+.hyperlink_group:hover {
+    width:85%;
+}
+
+.hyperlink_group#group1 {
+    background-color: #AA3939;
+}
+
+.hyperlink_group#group1:hover {
+    background-color: #E00;
+    color: #EEE;
+}
+
+.hyperlink_group#group2 {
+    background-color: #AA6C39; 
+}
+
+.hyperlink_group#group2:hover {
+    background-color: #FF9600;
+    color: #EEE;
+}
+
+.hyperlink_group#group3 {
+    background-color: #2D882D;
+}
+
+.hyperlink_group#group3:hover {
+    background-color: #0D0;
+    color: #EEE;
+}
+
+.hyperlink_group#group4 {
+    background-color: #266; 
+}
+
+.hyperlink_group#group4:hover {
+    background-color: #0AA;
+    color: #EEE;
+}
+
+.hyperlink_group#settings {
+    background-color: #555; 
+}
+
+.hyperlink_group#settings:hover {
+    background-color: #999;
+    color: #EEE;
+}
+
+.fa {
+    font-size: 1.0em;
+}
